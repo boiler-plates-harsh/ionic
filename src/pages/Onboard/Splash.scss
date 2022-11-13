@@ -1,0 +1,29 @@
+.spash-screen {
+	background-color: white;
+	--background: url("../../../public/assets//pngs/welcome_bg.png");
+	background-repeat: no-repeat !important;
+	background-size: cover;
+
+	img {
+		width: 100px;
+	}
+
+	.sp-ic {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		h4 {
+			font-weight: 600;
+		}
+	}
+}
+ion-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
